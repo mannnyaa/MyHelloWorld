@@ -11,14 +11,14 @@ function fcFrameMeta(): Plugin {
     transformIndexHtml(html: string) {
       const config = {
         version: 'next',
-        imageUrl: 'TUNNEL/logo.png',
+        imageUrl: 'my-hello-world-drab.vercel.app/logo.png',
         button: {
           title: '🚩 Start',
           action: {
             type: 'launch_frame',
             name: 'HelloWorld',
-            url: `TUNNEL/?v=${appVersion}`, 
-            splashImageUrl: 'TUNNEL/logo.png'
+            url: `my-hello-world-drab.vercel.app/?v=${appVersion}`, 
+            splashImageUrl: 'my-hello-world-drab.vercel.app/logo.png'
           },
         },
       };
@@ -37,7 +37,7 @@ export default defineConfig({
   server: {
     port: 3000,
     allowedHosts: [
-      '5abe318fed171fa07244be15c4e93881.serveo.net'
+      'my-hello-world-drab.vercel.app'
     ],
     headers: {
       'X-Frame-Options': 'ALLOWALL',
