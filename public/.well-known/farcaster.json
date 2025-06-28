@@ -9,5 +9,10 @@
     "primaryCategory": "developer-tools",
     "splashImageUrl": "https://my-hello-world-drab.vercel.app/logo.png",
     "splashBackgroundColor": "#ffffff"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjY4MTgxNCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQ5RGVjQWI5NzgwREM3NTIzRjY1YThiOWNjMzNmMDc3OTVBNTM4NTkifQ",
+    "payload": "eyJkb21haW4iOiJteS1oZWxsby13b3JsZC1kcmFiLnZlcmNlbC5hcHAifQ",
+    "signature": "MHg2YjI2MjQxZjdlNjIxYzA5ZGVmYjIyZWMxYTVhNTkwZjViYWMxMDdmM2I5NGM3NGMzOGQyMzMyNGMzNjZiMzJhMTMxZmNiNWUyNTIxMGQ3YmRiZDJiNTU3MWJkY2ZjY2MyY2Y1Mzc3YWM1NTA0MzY2ZGIzYTZjZDdhZDg1OWJhMTFj"
   }
 }
